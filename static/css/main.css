@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../img/medical.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+}
+
+
+  
+  .navbar .btn-outline-success {
+    color: white;
+    border-color: white;
+  }
+
+  .navbar .btn-outline-success:hover {
+    color: black;
+    background-color: white;
+  }
+  .h1{
+    text-align: center;
+    color: azure;
+    padding-top: 300px;
+  }
+  #button {
+    background-color: skyblue;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    color: black;
+    
+    /* Centering the button horizontally */
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;  /* Optional: Add some space between the heading and button */
+}
+
+.button:hover {
+    background-color: deepskyblue; /* Darker shade on hover */
+
+}
+.result{
+  text-align: center;
+  color: whitesmoke;
+}
+.pre{
+  text-align: center;
+  color: whitesmoke;
+}
