@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prediction Page</title>
+{% extends "layout.html" %}
+{% block body %}
   <link rel="stylesheet" href="static/css/main.css">
   <style>
     body {
@@ -82,8 +78,7 @@
       height: auto;
     }
   </style>
-</head>
-<body>
+
   <div class="container">
     <!-- Form content on the left -->
     <div class="form-content">
@@ -115,5 +110,4 @@
       <img src="static/img/ai.webp" alt="Prediction Illustration">
     </div>
   </div>
-</body>
-</html>
+{% endblock %}
