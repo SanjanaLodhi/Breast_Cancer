@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'breast cnacer'  # Corrected typo
+app.config['MYSQL_DB'] = 'breast cancer'  # Corrected typo
 mysql = MySQL(app)
 
 # Load the trained model (ensure you have the correct path to your model)
@@ -96,6 +96,14 @@ def register():
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+@app.route('/register1')
+def regis():
+    return render_template('register1.html')
 
 if __name__ == "__main__":
     app.secret_key = 'sanjana'  # Add secret key for session management
