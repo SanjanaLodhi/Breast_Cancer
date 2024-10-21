@@ -86,6 +86,7 @@ def register():
             mesage = 'Please fill out the form!'
         else:
             cursor.execute('INSERT INTO users (name, email, password) VALUES (%s, %s, %s)', (usersName, email, password))
+
   # Corrected query syntax
             mysql.connection.commit()
             mesage = 'You have successfully registered!'
