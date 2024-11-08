@@ -19,11 +19,12 @@ Website Screenshot
 ---
 1.Home Page
 
-![Screenshot 2024-10-17 212001](https://github.com/user-attachments/assets/c39629bb-ea39-4eeb-9e6d-1ad43fd69d95)
+https://github.com/user-attachments/assets/033d3975-2237-4451-acb3-53026d358452
 
-2. About
 
-![Uploading Screenshot 2024-11-08 205601.png…]()
+
+
+
 
 
 
