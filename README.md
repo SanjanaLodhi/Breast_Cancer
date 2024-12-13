@@ -1,3 +1,28 @@
+Requirements
+---
+Software Requirements
+---
+Operating System: The project can run on Windows, macOS, or Linux.
+
+Python Version: Python 3.7 or higher is required for running the project. Python 3.8 or later is preferred for compatibility with modern libraries.
+
+Web Frameworks: The project relies on Flask for the backend development, handling API routes, managing user sessions, and processing predictions.
+
+Libraries: Key libraries include scikit-learn for training the machine learning model, as well as NumPy and pandas for data manipulation and preprocessing. The model is built on classical machine learning algorithms such as Logistic Regression or Random Forest.
+
+---
+Hardware Requirements
+---
+Processor (CPU): A modern multi-core processor, such as Intel Core i5 or equivalent, is required. A more powerful processor, like Intel Core i7, can improve performance for model training and complex tasks.
+
+Memory (RAM): A minimum of 8GB of RAM is required for the project. While larger datasets may benefit from more RAM, 8GB should suffice for basic tasks and smaller datasets.
+
+Internet Connectivity: A stable internet connection is essential to download datasets, models, and libraries from repositories like Hugging Face. 
+
+
+
+
+
 What is OncoSure?
 ---
 
